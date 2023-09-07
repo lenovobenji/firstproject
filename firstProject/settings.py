@@ -42,7 +42,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     #custom app
     "myApp",
-]
+    "bootcamp",
+    "psicomedic",
+]   
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -56,7 +58,7 @@ MIDDLEWARE = [
 
 # Rutas de nuetro backend
 ROOT_URLCONF = 'firstProject.urls'
-print(os.path.join(BASE_DIR, "myApp", "templates"))
+print(os.path.join(BASE_DIR, "mApyp", "templates"))
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
