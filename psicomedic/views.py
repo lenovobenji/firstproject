@@ -7,22 +7,6 @@ from psicomedic.models import Psychologist, Patient, Appointment
 # Create your views here.
 
 
-def welcome(request):
-    # Response
-    html = """
-    <html>
-    <body>
-       <div>
-            <h1 style="text-align:center;">Welcome!</h><b><hr></b>
-        </div>
-        <p style="text-align:center">
-        Welcome to Psicomedic
-        </p>
-    </body>
-    </html>
-    """
-    return HttpResponse(html)
-
 
 def customgreet(request, name):
     # Response
